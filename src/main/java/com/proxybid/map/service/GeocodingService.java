@@ -13,7 +13,7 @@ import com.google.maps.model.LatLng;
 public class GeocodingService extends AbstractRestService{
 
 	
-	public GeocodingResult[] getLocation(String address) throws ApiException, InterruptedException, IOException{		
+	public GeocodingResult[] getLocation(String address) throws ApiException, InterruptedException, IOException{
 		return GeocodingApi.geocode(geoApiContext, address).await();		
 	}
 	
