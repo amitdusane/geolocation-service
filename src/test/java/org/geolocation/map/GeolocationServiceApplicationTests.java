@@ -1,4 +1,4 @@
-package org.proxybid.map;
+package org.geolocation.map;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
