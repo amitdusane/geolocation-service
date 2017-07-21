@@ -1,4 +1,4 @@
-package com.proxybid.map.service;
+package com.geolocation.map.service;
 
 import java.io.IOException;
 

@@ -1,4 +1,4 @@
-package com.proxybid.map.exception;
+package com.geolocation.map.exception;
 
 public class Http500Exception extends RuntimeException {
 
